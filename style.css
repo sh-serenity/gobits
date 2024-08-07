@@ -1,0 +1,139 @@
+body	{
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a	{
+    color: #6a4c00;
+}
+
+div.sh	{
+    background-color: #ffffff;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 8px 32px 8px 32px; 
+} 
+
+div.menu	{
+    background-color: #f49e69;
+    text-align: left;
+}
+
+div.hello	{
+    background-color: green;
+    margin: 0px;
+}
+
+.logo {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    background: #4d3700;
+}
+
+.right {
+    overflow: hidden; 
+    top: 0px;
+    width: max-content;;   
+    max-width: 98%;
+    background-color: #6d9720; 
+    float: right;    
+    
+}
+
+p.con {
+    width: 70%;
+    height: auto;
+    background: #ff0000;
+    text-align: left;
+}
+h1	{
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0px;
+    text-align: right;
+}
+p.sh {
+    color: #4d3700;
+    font-family: 'Arial';
+    font-size: 15px;
+    text-align:left
+    width: 80%px;
+display: inline-block;
+}
+
+
+a.sh {
+    color: white;
+    background: #6a4c00;
+    padding: 3px;
+    border-radius: 6px;
+    display: inline-block;
+}
+.data {
+    padding: 3px;
+    border-radius: 3px;
+    display: inline-block;
+
+    position: absolute;
+    width: 70%;
+    background: #fc3;
+}
+.com {
+    background-color: #a19d9d;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    border: 4px;
+    border-radius: 6px;
+    padding: 8px 32px 8px 32px;
+    align: center;
+    border: 2px solid #000000;
+}
+
+div.left {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 256px; /* Set the width of the sidebar */
+    position:fixed;
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #d5eea6;/* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    
+}go
+.left a { color: black }
+
+
+
+
+.wrapper {
+  background-color: #114444;
+  position:relative;
+  width:600px;
+  height:50px;
+}
+
+.wrapper textarea {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:45px;
+  display:inline-block;
+  z-index:1;
+}
+
+.wrapper input[name="test2"] {
+  position:absolute;
+  top:0;
+  left:50px;
+  z-index:2;
+}

@@ -1,0 +1,53 @@
+<meta charset="utf-8">
+<title>dev.shushik.kiev.ua</title>
+    <meta http-equiv="Content-Type" content="text/html"; charset=utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="tinymce/js/tinymce/tinymce.min.js"></script>
+    <script>
+    tinymce.init({
+    selector: 'textarea',
+    force_br_newlines : true,
+    force_p_newlines : false,
+    menubar: false, statusbar: false, toolbar: false, height: 100, width: 550,branding: false
+    });
+    </script>  
+
+    <script>
+    function reloadPage() {
+var currentDocumentTimestamp =
+new Date(performance.timing.domLoading).getTime();
+var now = Date.now();
+var tenSec = 10 * 1000;
+var plusTenSec = currentDocumentTimestamp + tenSec;
+if (now > plusTenSec) {
+location.reload();
+} else {}
+}
+</script>
+</head>
+<body>
+<div class=logo><h1>Thanks to Brian W. Kernighan, Dennis M. Ritchie.....</h1></div>
+<div class="sh"><center><img src="pdn.png"></center></div>
+<body>
+
+<div>
+<form action="/reg" method="POST">
+<table>
+<tr><td>nicname:</td><td><input type="text" id="name" name="name"></td></tr>
+<tr><td>invite:</td><td><input type="text" id="invite" name="invite"></td></tr>
+<tr><td>First name</td><td><input type="text" id="fname" name="fname"></td></tr>
+<tr><td>Second name</td><td><input type="text" id="fname" name="sname"></td></tr>
+<tr><td>email:</td><td><input type="text" id="email" name="email"></td></tr>
+<tr><td>password:</td><td><input type="password" id="pass" name="pass"></td></tr>
+<tr><td>once more pass:</td><td><input type="password" id="pmore" name="pmore"></td></tr>
+</table><br>
+<input type="submit" value="next">
+</form>
+</div>
+
+<div>
+    <p>Copyleft 2022 beloga inc.</p>
+</div>
+</body>
+</html>
